@@ -17,7 +17,7 @@ x = np.linspace(0, 4 * np.pi, 500) #500 points of sin(x) between 0 and 4π
 y = np.sin(x) #fomrula: y = sin(x)
 
 """Creates the figure and axis for the graph."""
-fig, ax = plt.subplots(figsize=(10, 6))
+fig, ax = plt.subplots(figsize=(10, 6)) #width and hight adjustment
 
 """Background colors for the inside and outside the graph"""
 fig.patch.set_facecolor('teal')     # entire background color
